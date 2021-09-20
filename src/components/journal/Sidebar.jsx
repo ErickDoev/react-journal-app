@@ -27,7 +27,7 @@ export const Sidebar = () => {
             
             <div className="sidebar__top">
                
-                <p>Bienvenido {user.name} {user.lastName}</p>
+                <p>{user.name} {user.lastName}</p>
                 <button 
                     className="btn btn-danger"
                     onClick={handleLogOut}>

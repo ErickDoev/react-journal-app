@@ -8,7 +8,7 @@ export const LoadingScreen = () => {
                     <p>Redireccionano...</p>
                     <br />
                     <br />
-                    <p>Aplicación desarrollada por React</p>
+                    <p>Aplicación desarrollada en React</p>
                 </div>
            </div>
         </>   

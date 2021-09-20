@@ -46,7 +46,7 @@ export const startUserRegister = createAsyncThunk(
 );
 
 export const startChecking = createAsyncThunk(
-    "auth/Start Register User",
+    "auth/Start Checking",
     async (data,{dispatch}) => {
 
         const resp = await fetchConToken('auth/renew');

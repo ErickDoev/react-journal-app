@@ -125,9 +125,8 @@
 
 .error-input{
     caret-color: $danger;
-    background-color: lighten($color: $danger, $amount: 45);
-
 }
+
 .error{
     background-color: lighten($color: $danger, $amount: 45);
 
@@ -135,6 +134,10 @@
         border: 1px solid red;
         border-radius: 5px;
         transition: 400ms;
+    }
+
+    & .input{
+        caret-color: $danger;
     }
 }
 

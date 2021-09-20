@@ -71,3 +71,16 @@
         margin-bottom: 0.5rem;
     }
 }
+
+@media screen and (max-width:780px){
+
+    .journal__entry{
+        height: 65px;
+    }
+}
+
+.journal__title{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}

@@ -67,8 +67,8 @@ export const LoginScreen = () => {
 
     return (
         <>
-            <div className="auth__content-left animate__animated animate__fadeInLeft">
-                <div className="form">
+            <div className="auth__content-left ">
+                <div className="form animate__animated animate__fadeInLeft">
                     {msgError && <p className="msg-error">{msgError}</p>}
                     <form className="auth__form">
                         <h1>Iniciar sesión</h1>
